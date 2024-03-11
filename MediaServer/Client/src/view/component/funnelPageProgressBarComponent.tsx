@@ -16,7 +16,9 @@ export const FunnelPageProgressBarComponent: React.FC<
           <View
             key={i}
             className={`h-2 w-6 rounded-full ${
-              currentCount >= i ? 'bg-[#FFD1BB]' : 'bg-[#F4F4F4]'
+              currentCount >= i
+                ? 'bg-PrimaryColor-300'
+                : 'bg-PrimaryGreyColor-500'
             }`}
           />
         );

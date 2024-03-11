@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        CiriusPet: {
+        PrimaryColor: {
           50: '#FFF7F4',
           100: '#FFEFE8',
           200: '#FFD1BB',
@@ -16,7 +16,7 @@ module.exports = {
           800: '#7D2800',
           900: '#5C1D00',
         },
-        CiriusPetGray: {
+        PrimaryGreyColor: {
           50: '#FBFBFB',
           100: '#F4F4F4',
           200: '#E7E7E7',

@@ -4,8 +4,7 @@
     "paths": {
       "@": ["./src"]
     },
-    "typeRoots": [
-      "./src/types"
-    ]
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
   }
 }

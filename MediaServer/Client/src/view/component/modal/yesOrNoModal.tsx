@@ -1,6 +1,6 @@
 import React from 'react';
 import {Modal, Text, TouchableWithoutFeedback, View} from 'react-native';
-import {DefaultButtonComponent} from '../button/defaultButtonComponent.tsx';
+import {ButtonDefault_1} from '../button/ButtonComponent.tsx';
 
 export type YesOrNoModalType = {
   show: boolean;
@@ -31,14 +31,14 @@ export const YesOrNoModal: React.FC<YesOrNoModalType> = ({
               <View>{children}</View>
               <View className={'flex flex-row'}>
                 <View className={'flex-1'}>
-                  <DefaultButtonComponent
+                  <ButtonDefault_1
                     title={okTitle ? okTitle : '예'}
                     event={() => event}
                   />
                 </View>
                 <View className={'w-3'} />
                 <View className={'flex-1'}>
-                  <DefaultButtonComponent
+                  <ButtonDefault_1
                     title={cancelTitle ? cancelTitle : '아니요'}
                     event={() => event}
                   />

@@ -84,14 +84,6 @@ const BottomView = () => {
   return (
     <SafeAreaView>
       {Platform.OS === 'android' && <View className={'h-10'} />}
-
-      {/*{Platform.OS === 'android' && (*/}
-      {/*  <View className={'flex h-10 justify-center items-center'}>*/}
-      {/*    <View*/}
-      {/*      className={'bg-CiriusPetGray-800 h-[5px] rounded-full w-[139px]'}*/}
-      {/*    />*/}
-      {/*  </View>*/}
-      {/*)}*/}
     </SafeAreaView>
   );
 };
